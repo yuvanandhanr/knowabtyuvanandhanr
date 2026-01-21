@@ -1,8 +1,8 @@
-# Personal Portfolio (Flask)
+# knowabtyuvanandhanr
 
-Minimal Flask app for a personal portfolio. Includes routes for home, projects, resume and contact.
+This is a portfolio website built using Flask. It includes routes for home, projects, resume, and contact.
 
-Quick start (Windows PowerShell):
+## Quick start (Windows PowerShell):
 
 ```powershell
 # create a venv
@@ -13,7 +13,7 @@ pip install -r requirements.txt
 python app.py
 ```
 
-Run tests:
+## Run tests:
 
 ```powershell
 #.\.venv\Scripts\Activate.ps1; pytest -q
