@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block title %}Resume{% endblock %}
+
+{% block content %}
+<h2>Resume</h2>
+<p><strong>Name:</strong> A resourceful graduate with a solid foundation in AI, data science, and software development.</p>
+
+<h3>Education</h3>
+<ul>
+    <li><strong>B.Tech:</strong> Artificial Intelligence and Data Science, Karunya Institute of Technology and Sciences (08/2021 - 07/2025, Coimbatore - India)</li>
+    <li><strong>SSLC & HSC:</strong> K.V.S English Medium School - CBSE (07/2018 - 08/2021, Virudhunagar - Tamil Nadu)</li>
+</ul>
+
+<h3>Skills</h3>
+<p>Python, Git, Docker, Terraform, GCP, Azure, Kubernetes, SQL, MongoDB, AWS, GenAI Integration, Linux, Jenkins, Ansible</p>
+
+<h3>Certifications</h3>
+<ul>
+    <li>DevOps Engineer Certificate (Ongoing)</li>
+    <li>AWS Solution Architect Certificate (Ongoing)</li>
+    <li>Azure Engineer Certificate (Ongoing)</li>
+    <li>GCP Certificate (Ongoing)</li>
+</ul>
+
+<h3>Languages</h3>
+<ul>
+    <li>English: Native or Bilingual Proficiency</li>
+    <li>Tamil: Native or Bilingual Proficiency</li>
+    <li>Hindi: Native or Bilingual Proficiency</li>
+</ul>
+
+<h3>Download Resume</h3>
+<p><a href="{{ url_for('static', filename='files/resume.pdf') }}" download>Download My Resume</a></p>
+{% endblock %}

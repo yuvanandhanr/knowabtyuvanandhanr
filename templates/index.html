@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}Home - Yuvanandhan R{% endblock %}
+
+{% block content %}
+  <div style="text-align: center; margin-bottom: 20px;">
+    <img src="{{ url_for('static', filename='images/my_photo.jpg') }}" alt="Yuvanandhan R" width="150" style="border-radius: 50%; border: 2px solid #58a6ff; margin-bottom: 10px;">
+    <h1 style="color: #c9d1d9; margin: 10px 0;">Yuvanandhan R</h1>
+    <p style="color: #8b949e; font-size: 1.1rem;">DevOps | AWS | Azure | GCP | Artificial Intelligence | Machine Learning | Data Science</p>
+  </div>
+
+  <h3>About Me</h3>
+  <p>A resourceful graduate with a solid foundation in AI, data science, and software development.</p>
+  <p>Skilled in building and analyzing datasets with Python. My background includes practical experience in deep learning and a commitment to continuous learning in emerging fields like DevOps and Generative AI.</p>
+
+  <h3>Featured Projects</h3>
+  <ul>
+      <li><a href="https://github.com/yuvanandhanr/Mental-Health-using-voice-dataset" target="_blank">Mental Health Prediction using Voice Data (GitHub)</a></li>
+      <li><a href="#">[Placeholder for Next Project]</a></li>
+  </ul>
+{% endblock %}

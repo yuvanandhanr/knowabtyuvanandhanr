@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}Projects{% endblock %}
+
+{% block content %}
+  <h2>Projects</h2>
+  <div class="projects">
+    {% for p in projects %}
+      <div class="project">
+        <h4>{{ p.title }}</h4>
+        <p>{{ p.description }}</p>
+        <p><a href="{{ p.link }}">Open</a></p>
+      </div>
+    {% endfor %}
+  </div>
+{% endblock %}
